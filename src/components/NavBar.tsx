@@ -15,15 +15,15 @@ const NavBar = () => {
           <div className=" mx-14 text-2xl font-bold">ICONO</div>
         </div>
 
-        <div className="font-semibold hidden md:flex gap-4 mx-7">
+        <div className=" hidden md:flex gap-4 mx-7">
           <a href="#about" className="hover:text-gray-400">
-            Sobre mí
+            About
           </a>
           <a href="#skills" className="hover:text-gray-400">
             Skills
           </a>
           <a href="#portfolio" className="hover:text-gray-400">
-            Portafolio
+            Portfolio
           </a>
           <a href="#contact" className="hover:text-gray-400">
             Contacto

@@ -9,8 +9,11 @@ import {
 const AboutSection = () => {
   return (
     <>
-      <div className="p-4 m-14 flex flex-col md:flex-row  xl:justify-center lg:justify-between md:justify-between  items-center xl:gap-60  ">
-        <div className="text-white sm:text-left md:text-left text-center">
+      <div
+        className="p-4 m-14 flex flex-col md:flex-row justify-between xl:justify-center w-full mx-auto items-center
+"
+      >
+        <div className="text-white sm:text-left md:text-left text-center sm:w-2/4 w-auto ">
           <div className="text-2xl">
             I'm {""}
             <span className="text-5xl text-yellow-300  font-semibold">
@@ -67,7 +70,7 @@ const AboutSection = () => {
       <div className=" relative p-4 m-14 ">
         <div className=" absolute bg-yellow-300 w-0.5 h-40 left-10 sm:left-5 sm:w-10 sm:h-0.5 mt-14 "></div>
         <div className="text-5xl text-white font-semibold ">About</div>
-        <div className="text-white text-justify text-sm ml-12  xl:mx-14 lg:mx-14 md:mx-14  sm:mx-14">
+        <div className="text-white  text-sm ml-12  xl:mx-14 lg:mx-14 md:mx-14  sm:mx-14">
           I am an Environmental Engineer transitioning into web development,
           with a passion for building engaging and responsive web applications.
           I have strong experience with HTML, CSS, JavaScript, and specialize in

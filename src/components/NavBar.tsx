@@ -1,6 +1,6 @@
 "use client";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch, faBars } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faBars, faCode } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
 const NavBar = () => {
@@ -9,10 +9,12 @@ const NavBar = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <nav className="text-white w-full">
-      <div className="container mx-auto px-4 flex justify-between items-center h-16">
-        <div className="flex items-center space-x-4">
-          <div className=" mx-14 text-2xl font-bold">ICONO</div>
+    <nav className="text-white w-full mx-auto">
+      <div className="container  flex m-auto justify-between items-center gap-2 h-16">
+        <div className="flex items-center w-auto">
+          <div className=" ml-4  text-2xl font-bold">
+            <FontAwesomeIcon icon={faCode} className="h-9" />
+          </div>
         </div>
 
         <div className=" hidden md:flex gap-4 mx-7">
@@ -30,7 +32,7 @@ const NavBar = () => {
           </a>
         </div>
 
-        <div className=" md:flex items-center space-x-2 relative max-w-smm xs:hidden">
+        <div className=" max-w-[270px] w-full md:flex items-center space-x-2 relative max-w-smm xs:hidden mx-6">
           <input
             className=" bg-gray-700 w-full  py-2 px-4 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-300 focus:border-gray-300 text-black"
             type="search"
@@ -41,7 +43,7 @@ const NavBar = () => {
           </button>
         </div>
         <div className=" relative flex flex-row gap-4">
-          <button onClick={toggleMenu} className="md:hidden mx-14 text-2xl">
+          <button onClick={toggleMenu} className="md:hidden mr-4 text-2xl">
             <FontAwesomeIcon icon={faBars} />
           </button>
           {menuOpen && (

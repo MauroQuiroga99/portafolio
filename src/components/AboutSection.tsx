@@ -9,10 +9,7 @@ import {
 const AboutSection = () => {
   return (
     <>
-      <div
-        className="p-4 m-14 flex flex-col md:flex-row justify-between xl:justify-center w-full mx-auto items-center
-"
-      >
+      <div className="m-14 sm:mx-0 flex flex-col md:flex-row justify-between xl:justify-center w-full mx-auto items-center">
         <div className="text-white sm:text-left md:text-left text-center sm:w-2/4 w-auto ">
           <div className="text-2xl">
             I'm {""}
@@ -24,9 +21,13 @@ const AboutSection = () => {
             <div className="mt-3  ">Front-End Developer</div>
           </div>
           <div className="mt-3">
-            <button className=" cursor-pointer bg-transparent hover:bg-yellow-300 text-white font-semibold hover:text-white py-1 px-5 border border-yellow-300 hover:border-transparent rounded">
+            <a
+              target="_blank"
+              href=""
+              className=" cursor-pointer bg-transparent hover:bg-yellow-300 text-white font-semibold hover:text-white py-1 px-5 border border-yellow-300 hover:border-transparent rounded"
+            >
               Contact Me
-            </button>
+            </a>
           </div>
         </div>
         <div className=" top-5 relative bg-[url('/img/perfil.png')] bg-center bg-cover bg-no-repeat w-96 h-80">
@@ -67,10 +68,12 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-      <div className=" relative p-4 m-14 ">
-        <div className=" absolute bg-yellow-300 w-0.5 h-40 left-10 sm:left-5 sm:w-10 sm:h-0.5 mt-14 "></div>
-        <div className="text-5xl text-white font-semibold ">About</div>
-        <div className="text-white  text-sm ml-12  xl:mx-14 lg:mx-14 md:mx-14  sm:mx-14">
+      <div className=" relative w-full mx-auto    m-14 ">
+        <div className=" absolute bg-yellow-300 w-0.5 h-32 left-8 sm:left-12 sm:w-10 sm:h-0.5 lg:left-0.5 md:left-12  mt-16 "></div>
+        <div className="text-4xl text-white font-semibold mx-0  xl:mx-0 lg:mx-0 md:mx-12  sm:mx-12 mb-4  ">
+          About
+        </div>
+        <div className="text-white  text-sm ml-12  xl:mx-14 lg:mx-14 md:mx-[99px]  sm:mx-24">
           I am an Environmental Engineer transitioning into web development,
           with a passion for building engaging and responsive web applications.
           I have strong experience with HTML, CSS, JavaScript, and specialize in

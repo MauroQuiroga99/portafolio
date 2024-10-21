@@ -1,4 +1,5 @@
 import AboutSection from "app/components/AboutSection";
+import CertificationsSection from "app/components/CertificationsSection";
 import NavBar from "app/components/NavBar";
 import SkillsSection from "app/components/SkillsSection";
 
@@ -14,6 +15,9 @@ export default function Home() {
         </div>
         <div className="">
           <SkillsSection />
+        </div>
+        <div className="">
+          <CertificationsSection />
         </div>
       </div>
     </div>

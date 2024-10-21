@@ -48,3 +48,32 @@ export const dataSkills: Skills[] = [
     icon: " https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
   },
 ];
+
+export type Certifications = {
+  id: number;
+  title: string;
+  name: string;
+  date: string;
+  icon: string;
+  url: string;
+};
+
+export const dataCertifications: Certifications[] = [
+  {
+    id: 1,
+    title: "React y TypeScript - La Guía Completa Creando +10 Proyectos",
+    name: "Udemy",
+    date: "Agosto 2024",
+    icon: "https://static.vecteezy.com/system/resources/previews/046/437/277/non_2x/udemy-transparent-logo-free-png.png",
+    url: "https://www.udemy.com/certificate/UC-27eddc6e-4e4a-499d-814f-e1954648e0a1/",
+  },
+
+  {
+    id: 2,
+    title: "React y TypeScript - La Guía Completa Creando +10 Proyectos",
+    name: "Platzi",
+    date: "Agosto 2024",
+    icon: "https://static.vecteezy.com/system/resources/previews/046/437/277/non_2x/udemy-transparent-logo-free-png.png",
+    url: "https://www.udemy.com/certificate/UC-27eddc6e-4e4a-499d-814f-e1954648e0a1/",
+  },
+];

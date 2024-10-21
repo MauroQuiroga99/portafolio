@@ -3,8 +3,8 @@ import SkillsCard from "./SkillsCard";
 
 const SkillsSection = () => {
   return (
-    <div className="w-full mx-auto">
-      <div className="text-center text-5xl text-white font-semibold ">
+    <div className="w-full mx-auto mb-14">
+      <div className="text-center text-4xl text-white font-semibold ">
         My Skills
       </div>
       <div className="flex gap-4 mt-8 justify-center flex-wrap">

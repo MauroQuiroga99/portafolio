@@ -10,8 +10,8 @@ type CertificationsProps = {
 const CertificationsCard = ({ cert }: CertificationsProps) => {
   return (
     <div className="flex flex-row">
-      <div className="flex-shrink-0">
-        <img className="w-16 h-16" src={cert.icon} alt="" />
+      <div className="flex-shrink-0 rounded">
+        <img className="w-12 h-12 mr-2 rounded-md" src={cert.icon} alt="" />
       </div>
       <div className="text-white">
         <p className="text-xl font-semibold">{cert.title} </p>

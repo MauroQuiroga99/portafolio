@@ -110,3 +110,122 @@ export const dataCertifications: Certifications[] = [
     url: "https://platzi.com/p/mauro.quiroga/curso/2878-typescript/diploma/detalle/",
   },
 ];
+
+export type Proyects = {
+  id: number;
+  title: string;
+  description: string;
+  date: string;
+  image: string;
+  url: string;
+  git: string;
+  technology: Technology[];
+};
+
+export type Technology = {
+  id: number;
+  name: string;
+};
+
+export const dataProyects: Proyects[] = [
+  {
+    id: 1,
+    title: "MangaHub",
+    description:
+      "MangaHub is a platform built with React and Next.js for fans to explore and discuss anime and manga. ",
+    date: "string;",
+    image: "/proyects/proyect01.png",
+    url: "https://manga-hub-bice.vercel.app/home",
+    git: "https://github.com/MauroQuiroga99/MangaHub",
+    technology: [
+      { id: 1, name: "React" },
+      { id: 2, name: "TypeScript" },
+      { id: 3, name: "Material UI" },
+      { id: 4, name: "Redux" },
+      { id: 1, name: "Next JS" },
+    ],
+  },
+  {
+    id: 2,
+    title: "Bebidas React",
+    description:
+      "MangaHub is a platform built with React and Next.js for fans to explore and discuss anime and manga. ",
+    date: "string;",
+    image: "/proyects/proyect02.png",
+    url: "https://bebidas-react-blush.vercel.app/",
+    git: "https://github.com/MauroQuiroga99/bebidas-react",
+    technology: [
+      { id: 1, name: "React" },
+      { id: 2, name: "TypeScript" },
+      { id: 3, name: "Tailwind CSS" },
+      { id: 4, name: " Axios" },
+      { id: 1, name: "Vite" },
+    ],
+  },
+  {
+    id: 3,
+    title: "Cotizador de Criptomonedas",
+    description:
+      "The cripto-app project is an application that allows users to check real-time prices of various cryptocurrencies.",
+    date: "string;",
+    image: "/proyects/proyect03.png",
+    url: "https://cripto-app-hazel.vercel.app/",
+    git: "https://github.com/MauroQuiroga99/cripto-app",
+    technology: [
+      { id: 1, name: "React" },
+      { id: 2, name: "TypeScript" },
+      { id: 3, name: "Vite" },
+    ],
+  },
+
+  {
+    id: 4,
+    title: "Cafeteria Next",
+    description:
+      "The cafeteria-next project is an app designed to manage coffee shop businesses. It provides features to handle orders, products, and business operations efficiently. ",
+    date: "string;",
+    image: "/proyects/proyect03.png",
+    url: "https://bocchi-cafe.vercel.app/",
+    git: "https://github.com/MauroQuiroga99/cafeteria-next",
+    technology: [
+      { id: 1, name: "React" },
+      { id: 2, name: "TypeScript" },
+      { id: 3, name: "Redux" },
+      { id: 4, name: "Next JS" },
+      { id: 5, name: "Prisma" },
+    ],
+  },
+
+  {
+    id: 5,
+    title: "Planificador de Gastos",
+    description:
+      "The control-gastos-react project is a personal finance management application built with React and TypeScript.",
+    date: "string;",
+    image: "/proyects/proyect05.png",
+    url: "https://control-gastos-react-xi.vercel.app/ ",
+    git: "https://github.com/MauroQuiroga99/control-gastos-react",
+    technology: [
+      { id: 1, name: "React" },
+      { id: 2, name: "TypeScript" },
+      { id: 3, name: "Vite" },
+    ],
+  },
+
+  {
+    id: 6,
+    title: "Administrador de Pacientes",
+    description:
+      "This project is an application designed to facilitate patient appointment management.   ",
+    date: "string;",
+    image: "/proyects/proyect06.png",
+    url: "https://admon-pacientes.vercel.app/ ",
+    git: "https://github.com/MauroQuiroga99/zustand-pacientes",
+    technology: [
+      { id: 1, name: "React" },
+      { id: 2, name: "TypeScript" },
+      { id: 3, name: "Zustand" },
+      { id: 4, name: "React Hook Form" },
+    ],
+  },
+];

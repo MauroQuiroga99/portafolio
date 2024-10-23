@@ -10,7 +10,7 @@ type ProyectsProps = {
 const ProyectCard = ({ proyects }: ProyectsProps) => {
   return (
     <div>
-      <div className="max-w-sm w-60 mx-auto">
+      <div className="max-w-sm w-72 mx-auto">
         <div className="relative group  ">
           <img
             src={proyects.image}

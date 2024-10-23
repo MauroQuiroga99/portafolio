@@ -18,7 +18,7 @@ const AboutSection = () => {
               Mauro Quiroga
             </span>{" "}
             <br />
-            <div className="mt-3  ">Front-End Developer</div>
+            <div className="mt-3 ">Front-End Developer</div>
           </div>
           <div className="mt-3">
             <a

@@ -23,7 +23,7 @@ const CertificationsCard = ({ cert }: CertificationsProps) => {
         <a
           target="_blank"
           href={cert.url}
-          className="cursor-pointer text-yellow-300 hover:bg-yellow-300 hover:bg-opacity-50 hover:text-white rounded px-2 py-1"
+          className="cursor-pointer text-white bg-yellow-300 bg-opacity-50 hover:text-white rounded px-2 py-1"
         >
           View Certification
           <FontAwesomeIcon

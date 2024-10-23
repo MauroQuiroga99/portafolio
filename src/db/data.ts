@@ -184,7 +184,7 @@ export const dataProyects: Proyects[] = [
     description:
       "The cafeteria-next project is an app designed to manage coffee shop businesses. It provides features to handle orders, products, and business operations efficiently. ",
     date: "string;",
-    image: "/proyects/proyect03.png",
+    image: "/proyects/proyect04.png",
     url: "https://bocchi-cafe.vercel.app/",
     git: "https://github.com/MauroQuiroga99/cafeteria-next",
     technology: [

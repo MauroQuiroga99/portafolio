@@ -4,12 +4,21 @@ import {
   faGithub,
   faLinkedin,
   faXTwitter,
+  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
+
+import {
+  faArrowDown,
+  faCircleArrowDown,
+} from "@fortawesome/free-solid-svg-icons";
 
 const AboutSection = () => {
   return (
     <>
-      <div className="m-14 sm:mx-0 flex flex-col md:flex-row justify-between xl:justify-center w-full mx-auto items-center">
+      <div
+        id="about"
+        className="m-14 sm:mx-0 flex flex-col md:flex-row justify-between xl:justify-center w-full mx-auto items-center"
+      >
         <div className="text-white sm:text-left md:text-left text-center sm:w-2/4 w-auto ">
           <div className="text-2xl">
             I'm {""}
@@ -26,7 +35,11 @@ const AboutSection = () => {
               href=""
               className=" cursor-pointer bg-transparent hover:bg-yellow-300 text-white font-semibold hover:text-white py-1 px-5 border border-yellow-300 hover:border-transparent rounded"
             >
-              Contact Me
+              Download CV
+              <FontAwesomeIcon
+                icon={faCircleArrowDown}
+                className="ml-2 w-4 h-4"
+              />
             </a>
           </div>
         </div>
@@ -34,14 +47,12 @@ const AboutSection = () => {
           <div className="absolute md:right-[20px] xl:right-[20px] lg:right-[20px] sm:right-[20px] bottom-[130px] right-[60px]  w-0.5 h-20 bg-yellow-300"></div>
           <div className="  absolute md:right-[12.5px] xl:right-[12.5px] lg:right-[12.5px] sm:right-[12.5px]  bottom-[10px] right-[52.5px] flex flex-col space-y-1 z-0">
             <a
-              className="cursor-pointer"
-              href="https://www.facebook.com/yato.sama.9022/"
+              href="https://www.linkedin.com/in/mauro-alexander-quiroga-borja-751100190/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faFacebook} className="text-white" />
+              <FontAwesomeIcon icon={faLinkedin} className="text-white" />
             </a>
-
             <a
               href="https://www.twitter.com"
               target="_blank"
@@ -49,13 +60,13 @@ const AboutSection = () => {
             >
               <FontAwesomeIcon icon={faXTwitter} className="text-white" />
             </a>
-
             <a
-              href="https://www.linkedin.com/in/mauro-alexander-quiroga-borja-751100190/"
+              className="cursor-pointer"
+              href="https://www.facebook.com/yato.sama.9022/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faLinkedin} className="text-white" />
+              <FontAwesomeIcon icon={faWhatsapp} className="text-white" />
             </a>
 
             <a

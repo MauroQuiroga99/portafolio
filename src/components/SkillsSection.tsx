@@ -3,7 +3,7 @@ import SkillsCard from "./SkillsCard";
 
 const SkillsSection = () => {
   return (
-    <div className="w-full mx-auto mb-14">
+    <div id="skills" className="w-full mx-auto mb-14">
       <div className="text-center text-4xl text-white font-semibold ">
         My Skills
       </div>

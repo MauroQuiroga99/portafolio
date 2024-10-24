@@ -14,7 +14,7 @@ const ProyectCard = ({ proyects }: ProyectsProps) => {
         className="max-w-sm w-72 h-60 mx-auto relative group bg-cover bg-center rounded-lg cursor-pointer"
         style={{ backgroundImage: `url(${proyects.image})` }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-30 rounded-lg group-hover:backdrop-blur-sm transition-all duration-300">
+        <div className="absolute inset-0 hover:bg-black hover:bg-opacity-50 rounded-lg group-hover:backdrop-blur-sm transition-all duration-300">
           <div className="hidden group-hover:flex flex-col justify-center items-center h-full text-white">
             <div className="text-center px-4 mt-2">
               <h2 className="text-sm font-bold">{proyects.title}</h2>

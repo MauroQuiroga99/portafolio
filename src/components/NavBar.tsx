@@ -28,7 +28,7 @@ const NavBar = () => {
             Portfolio
           </a>
           <a href="#contact" className="hover:text-gray-400">
-            Contacto
+            Contact
           </a>
         </div>
 

@@ -1,16 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebook,
   faGithub,
   faLinkedin,
   faXTwitter,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 
-import {
-  faArrowDown,
-  faCircleArrowDown,
-} from "@fortawesome/free-solid-svg-icons";
+import { faCircleArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 const AboutSection = () => {
   return (
@@ -32,7 +28,7 @@ const AboutSection = () => {
           <div className="mt-3">
             <a
               target="_blank"
-              href=""
+              href="/CV-mauroquiroga.pdf"
               className=" cursor-pointer bg-transparent hover:bg-yellow-300 text-white font-semibold hover:text-white py-1 px-5 border border-yellow-300 hover:border-transparent rounded"
             >
               Download CV
@@ -62,7 +58,7 @@ const AboutSection = () => {
             </a>
             <a
               className="cursor-pointer"
-              href="https://www.facebook.com/yato.sama.9022/"
+              href="https://api.whatsapp.com/send/?phone=573235884424&text&type=phone_number&app_absent=0"
               target="_blank"
               rel="noopener noreferrer"
             >

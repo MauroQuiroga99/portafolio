@@ -61,7 +61,7 @@ const ContactSection = () => {
               />
             </a>
             <a
-              href="https://www.facebook.com/yato.sama.9022/"
+              href="https://api.whatsapp.com/send/?phone=573235884424&text&type=phone_number&app_absent=0"
               target="_blank"
               rel="noopener noreferrer"
             >

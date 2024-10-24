@@ -17,9 +17,6 @@ const CertificationsCard = ({ cert }: CertificationsProps) => {
         <p className="text-xl font-semibold">{cert.title} </p>
         <p className=""> {cert.name} </p>
         <p> Expedition: {cert.date} </p>
-
-        <p> Certificate Number: {cert.id} </p>
-
         <a
           target="_blank"
           href={cert.url}

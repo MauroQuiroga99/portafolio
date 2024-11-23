@@ -56,6 +56,30 @@ export const dataSkills: Skills[] = [
     icon: " https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
     tech: " https://redux.js.org/ ",
   },
+  {
+    id: 8,
+    name: "Node js",
+    icon: " https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
+    tech: " https://nodejs.org/en/ ",
+  },
+  {
+    id: 9,
+    name: "Express",
+    icon: " https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+    tech: " https://expressjs.com/ ",
+  },
+  {
+    id: 10,
+    name: "Sequalize",
+    icon: " https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sequelize/sequelize-original.svg",
+    tech: " https://sequelize.org/ ",
+  },
+  {
+    id: 10,
+    name: "Postgres SQL",
+    icon: " https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg",
+    tech: " https://www.postgresql.org/ ",
+  },
 ];
 
 export type Certifications = {

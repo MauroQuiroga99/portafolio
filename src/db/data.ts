@@ -75,7 +75,13 @@ export const dataSkills: Skills[] = [
     tech: " https://sequelize.org/ ",
   },
   {
-    id: 10,
+    id: 11,
+    name: "TypeORM",
+    icon: " https://typeorm.io/",
+    tech: " https://sequelize.org/ ",
+  },
+  {
+    id: 12,
     name: "Postgres SQL",
     icon: " https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg",
     tech: " https://www.postgresql.org/ ",

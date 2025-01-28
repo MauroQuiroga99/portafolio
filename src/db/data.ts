@@ -77,7 +77,7 @@ export const dataSkills: Skills[] = [
   {
     id: 11,
     name: "TypeORM",
-    icon: " https://typeorm.io/",
+    icon: " https://vectorseek.com/wp-content/uploads/2024/07/TypeORM-Logo-Vector-Logo-Vector.svg-.png",
     tech: " https://sequelize.org/ ",
   },
   {
@@ -85,6 +85,13 @@ export const dataSkills: Skills[] = [
     name: "Postgres SQL",
     icon: " https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg",
     tech: " https://www.postgresql.org/ ",
+  },
+
+  {
+    id: 13,
+    name: "JSON Web Token",
+    icon: "https://media.licdn.com/dms/image/v2/D4D12AQHW9aRSWIOMxQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1657421703592?e=2147483647&v=beta&t=FEGSIxKLtHau0ap0rtdah7V5wxNShyAfNtKuMZvxGeI",
+    tech: "https://jwt.io/",
   },
 ];
 

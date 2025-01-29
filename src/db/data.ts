@@ -274,4 +274,21 @@ export const dataProyects: Proyects[] = [
       { id: 4, name: "React Hook Form" },
     ],
   },
+
+  {
+    id: 7,
+    title: "Blog Tech",
+    description:
+      "BlogTech is a platform built with React and Next.js, designed to explore and share technology-related content. This project stands out for its modern design, dynamic functionality, and optimized performance..   ",
+    date: "string;",
+    image: "/proyects/proyect07.png",
+    url: "https://blog-tech-indol.vercel.app/",
+    git: "https://github.com/MauroQuiroga99/BlogTech",
+    technology: [
+      { id: 1, name: "React" },
+      { id: 2, name: "TypeScript" },
+      { id: 3, name: "Next" },
+      { id: 4, name: "React Hook Form" },
+    ],
+  },
 ];

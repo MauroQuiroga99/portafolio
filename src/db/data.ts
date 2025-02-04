@@ -95,6 +95,77 @@ export const dataSkills: Skills[] = [
   },
 ];
 
+export const dataSkillsE: Skills[] = [
+  {
+    id: 1,
+    name: "Excel",
+    icon: "https://img.icons8.com/?size=512&id=117561&format=png",
+    tech: "https://www.microsoft.com/es-co/microsoft-365/excel",
+  },
+  {
+    id: 2,
+    name: "AutoCAD",
+    icon: "https://cdn.freelogovectors.net/wp-content/uploads/2023/05/autocad_logo-freelogovectors.net_.png",
+    tech: "https://www.autodesk.com/latam/products/autocad/overview?term=1-YEAR&tab=subscription",
+  },
+  {
+    id: 3,
+    name: "Google Earth",
+    icon: "https://macmagazine.com.br/wp-content/uploads/2015/02/09-icone-google-earth-pro1.png",
+    tech: "https://www.google.es/intl/es/earth/index.html",
+  },
+  {
+    id: 4,
+    name: "HTML & CSS",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/2560px-CSS3_and_HTML5_logos_and_wordmarks.svg.png",
+    tech: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+
+  {
+    id: 5,
+    name: "JavaScript",
+    icon: "https://img.icons8.com/?size=100&id=39853&format=png&color=000000",
+    tech: " https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
+  {
+    id: 6,
+    name: "React",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+    tech: "https://react.dev/   ",
+  },
+
+  {
+    id: 7,
+    name: "Node js",
+    icon: " https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
+    tech: " https://nodejs.org/en/ ",
+  },
+  {
+    id: 8,
+    name: "Express",
+    icon: " https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+    tech: " https://expressjs.com/ ",
+  },
+  {
+    id: 9,
+    name: "Sequalize",
+    icon: " https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sequelize/sequelize-original.svg",
+    tech: " https://sequelize.org/ ",
+  },
+  {
+    id: 10,
+    name: "TypeORM",
+    icon: " https://vectorseek.com/wp-content/uploads/2024/07/TypeORM-Logo-Vector-Logo-Vector.svg-.png",
+    tech: " https://sequelize.org/ ",
+  },
+  {
+    id: 11,
+    name: "Postgres SQL",
+    icon: " https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg",
+    tech: " https://www.postgresql.org/ ",
+  },
+];
+
 export type Certifications = {
   id: string;
   title: string;
@@ -149,6 +220,76 @@ export const dataCertifications: Certifications[] = [
   },
   {
     id: "6",
+    title: "Curso de TypeScript",
+    name: "Platzi",
+    date: "Enero 2024",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMq4odFRbUxvuSxp1owv99ybwwEcm1UX9eI6-LVQ-GZg9sTalt33zGrnWjbV2ouI7Wg18&usqp=CAU",
+    url: "https://platzi.com/p/mauro.quiroga/curso/2878-typescript/diploma/detalle/",
+  },
+];
+
+export const dataCertificationsE: Certifications[] = [
+  {
+    id: "7",
+    title: "Diplomado en Educación Ambiental",
+    name: "Politécnico de Colombia",
+    date: "Enero 2024",
+    icon: "https://yt3.googleusercontent.com/ytc/AIdro_nPWhLarxyaDe8N2lMNJiKeMvUp7-u78cRbuFKjbkdUAA=s900-c-k-c0x00ffffff-no-rj",
+    url: "https://platzi.com/p/mauro.quiroga/curso/2878-typescript/diploma/detalle/",
+  },
+
+  {
+    id: "2",
+    title: "Curso Definitivo de HTML y CSS",
+    name: "Platzi",
+    date: "Enero 2024",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMq4odFRbUxvuSxp1owv99ybwwEcm1UX9eI6-LVQ-GZg9sTalt33zGrnWjbV2ouI7Wg18&usqp=CAU",
+    url: "https://platzi.com/p/maauro1999/curso/3468-react-router/diploma/detalle/",
+  },
+
+  {
+    id: "3",
+    title: "Curso de Responsive Design: Maquetación Mobile First",
+    name: "Platzi",
+    date: "Febrero 2024",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMq4odFRbUxvuSxp1owv99ybwwEcm1UX9eI6-LVQ-GZg9sTalt33zGrnWjbV2ouI7Wg18&usqp=CAU",
+    url: "https://platzi.com/p/maauro1999/curso/2030-mobile-first/diploma/detalle/",
+  },
+  {
+    id: "4",
+    title: "Curso de React.js",
+    name: "Platzi",
+    date: "Enero 2024",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMq4odFRbUxvuSxp1owv99ybwwEcm1UX9eI6-LVQ-GZg9sTalt33zGrnWjbV2ouI7Wg18&usqp=CAU",
+    url: "https://platzi.com/p/maauro1999/curso/7395-react/diploma/detalle/",
+  },
+  {
+    id: "5",
+    title: "Curso de React.js: Navegación con React Route",
+    name: "Platzi",
+    date: "Enero 2024",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMq4odFRbUxvuSxp1owv99ybwwEcm1UX9eI6-LVQ-GZg9sTalt33zGrnWjbV2ouI7Wg18&usqp=CAU",
+    url: "https://platzi.com/p/maauro1999/curso/3468-react-router/diploma/detalle/",
+  },
+  {
+    id: "6",
+    title: "Curso de TypeScript",
+    name: "Platzi",
+    date: "Enero 2024",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMq4odFRbUxvuSxp1owv99ybwwEcm1UX9eI6-LVQ-GZg9sTalt33zGrnWjbV2ouI7Wg18&usqp=CAU",
+    url: "https://platzi.com/p/mauro.quiroga/curso/2878-typescript/diploma/detalle/",
+  },
+
+  {
+    id: "1",
+    title: "React y TypeScript - La Guía Completa Creando +10 Proyectos",
+    name: "Udemy",
+    date: "Agosto 2024",
+    icon: "https://www.langoly.com/wp-content/uploads/2022/09/udemy-logo.png",
+    url: "https://www.udemy.com/certificate/UC-27eddc6e-4e4a-499d-814f-e1954648e0a1/",
+  },
+  {
+    id: "8",
     title: "Curso de TypeScript",
     name: "Platzi",
     date: "Enero 2024",

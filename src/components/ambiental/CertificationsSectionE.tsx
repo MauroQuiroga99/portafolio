@@ -1,5 +1,5 @@
-import { dataCertifications } from "app/db/data";
-import CertificationsCard from "./CertificationsCard";
+import { dataCertificationsE } from "app/db/data";
+import CertificationsCardE from "./CertificationsCardE";
 
 const CertificationsSectionE = () => {
   return (
@@ -9,8 +9,8 @@ const CertificationsSectionE = () => {
           Certifications
         </div>
         <div className="flex flex-col gap-4 xl:mx-14 lg:mx-14 md:mx-28 sm:mx-28  mx-4  ">
-          {dataCertifications.map((cert) => (
-            <CertificationsCard key={cert.id} cert={cert} />
+          {dataCertificationsE.map((cert) => (
+            <CertificationsCardE key={cert.id} cert={cert} />
           ))}
         </div>
       </div>

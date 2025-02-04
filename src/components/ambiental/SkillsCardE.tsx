@@ -5,7 +5,7 @@ type SkillsProps = {
   skills: Skills;
 };
 
-const SkillsCard = ({ skills }: SkillsProps) => {
+const SkillsCardE = ({ skills }: SkillsProps) => {
   const handleRedirect = () => {
     window.open(skills.tech, "_blank", "noopener,noreferrer");
   };
@@ -22,4 +22,4 @@ const SkillsCard = ({ skills }: SkillsProps) => {
   );
 };
 
-export default SkillsCard;
+export default SkillsCardE;

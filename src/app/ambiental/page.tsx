@@ -1,9 +1,10 @@
 import AboutSectionE from "app/components/ambiental/AboutSectionE";
+import CertificationsSectionE from "app/components/ambiental/CertificationsSectionE";
 import NavBarE from "app/components/ambiental/NavBarE";
-import CertificationsSection from "app/components/CertificationsSection";
+import SkillsSectionE from "app/components/ambiental/SkillsSectionE";
+
 import ContactSection from "app/components/ContactSection";
 import ProyectsSection from "app/components/ProyectsSection";
-import SkillsSection from "app/components/SkillsSection";
 
 export default function Home() {
   return (
@@ -16,10 +17,10 @@ export default function Home() {
           <AboutSectionE />
         </div>
         <div className="">
-          <SkillsSection />
+          <SkillsSectionE />
         </div>
         <div className="">
-          <CertificationsSection />
+          <CertificationsSectionE />
         </div>
         <div className="">
           <ProyectsSection />

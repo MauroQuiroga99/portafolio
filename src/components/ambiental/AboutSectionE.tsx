@@ -28,7 +28,7 @@ const AboutSectionE = () => {
           <div className="mt-3">
             <a
               target="_blank"
-              href="/CV-mauroquiroga.pdf"
+              href="/CV-MQ-AMBIENTAL.pdf"
               className=" cursor-pointer bg-transparent hover:bg-yellow-300 text-white font-semibold hover:text-white py-1 px-5 border border-yellow-300 hover:border-transparent rounded"
             >
               Download CV

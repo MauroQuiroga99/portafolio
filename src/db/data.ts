@@ -438,7 +438,7 @@ export type Activities = {
   id: number;
   title: string;
   description: string;
-  date: string;
+  location: string;
   image1: string;
   image2: string;
   image3: string;
@@ -453,26 +453,39 @@ const dataActivities: Activities[] = [
     title: "Charlas, Campañas y Capacitaciones Ambientales",
     description:
       "Como parte de la gestión ambiental en proyectos de Oil & Gas, he diseñado e impartido charlas, campañas y capacitaciones dirigidas al personal operativo, administrativo y contratistas, con el objetivo de fomentar la conciencia ambiental y el cumplimiento normativo.",
-    date: "2024-09-15",
+    location: "Campo Rubiales, Meta (Ecopetrol)",
     image1: "/activities/charlas/charla1.jpg",
     image2: "/activities/charlas/charla2.jpg",
     image3: "/activities/charlas/charla3.jpg",
-    image4: "/activities/charlas/charla1.jpg",
-    image5: "/activities/charlas/charla2.jpg",
-    image6: "/activities/charlas/charla3.jpg",
+    image4: "/activities/charlas/charla4.jpg",
+    image5: "/activities/charlas/charla5.jpg",
+    image6: "/activities/charlas/charla6.jpg",
   },
   {
     id: 2,
     title: "Manejo de Suelos: Reconformación, Geotecnia y Revegetalización",
     description:
       "Como parte de la gestión ambiental en proyectos de Oil & Gas, he participado en actividades de reconformación topográfica, análisis geotécnico y revegetalización de áreas intervenidas, garantizando la estabilidad del suelo y la recuperación de la cobertura vegetal en cumplimiento de normativas ambientales.",
-    date: "2024-09-15",
+    location: "Campo Rubiales, Meta (Ecopetrol)",
     image1: "/activities/reveg/reveg1.jpg",
     image2: "/activities/reveg/reveg2.jpg",
-    image3: "/activities/reveg/reveg1.jpg",
-    image4: "/activities/charlas/charla1.jpg",
-    image5: "/activities/charlas/charla2.jpg",
-    image6: "/activities/charlas/charla3.jpg",
+    image3: "/activities/reveg/reveg3.jpg",
+    image4: "/activities/reveg/reveg4.jpg",
+    image5: "/activities/reveg/reveg5.jpg",
+    image6: "/activities/reveg/reveg6.jpg",
+  },
+  {
+    id: 3,
+    title: "Simulacros Ambientales: Prevención y Respuesta a Emergencias",
+    description:
+      "He participado en la planificación y ejecución de simulacros ambientales enfocados en la prevención y respuesta ante emergencias como derrames de hidrocarburos y manejo de residuos peligrosos, asegurando el cumplimiento normativo y la preparación del personal ante incidentes ambientales.",
+    location: "Campo Rubiales, Meta (Ecopetrol)",
+    image1: "/activities/drills/drill1.jpg",
+    image2: "/activities/drills/drill2.jpg",
+    image3: "/activities/drills/drill3.jpg",
+    image4: "/activities/drills/drill4.jpg",
+    image5: "/activities/drills/drill5.jpg",
+    image6: "/activities/drills/drill6.jpg",
   },
 ];
 

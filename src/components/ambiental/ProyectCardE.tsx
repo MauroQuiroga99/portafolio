@@ -55,7 +55,9 @@ const ProyectCardE = ({ activities }: ActivitiesProps) => {
       <div className="p-4">
         <h2 className="text-xl font-bold text-gray-800">{activities.title}</h2>
         <p className="text-gray-600 text-sm mt-2">{activities.description}</p>
-        <p className="text-gray-500 text-xs mt-2">Fecha: {activities.date}</p>
+        <p className="text-gray-500 text-xs mt-2">
+          Ubicación: {activities.location}
+        </p>
       </div>
     </div>
   );

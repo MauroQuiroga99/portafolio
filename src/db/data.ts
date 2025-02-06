@@ -433,3 +433,47 @@ export const dataProyects: Proyects[] = [
     ],
   },
 ];
+
+export type Activities = {
+  id: number;
+  title: string;
+  description: string;
+  date: string;
+  image1: string;
+  image2: string;
+  image3: string;
+  image4: string;
+  image5: string;
+  image6: string;
+};
+
+const dataActivities: Activities[] = [
+  {
+    id: 1,
+    title: "Charlas, Campañas y Capacitaciones Ambientales",
+    description:
+      "Como parte de la gestión ambiental en proyectos de Oil & Gas, he diseñado e impartido charlas, campañas y capacitaciones dirigidas al personal operativo, administrativo y contratistas, con el objetivo de fomentar la conciencia ambiental y el cumplimiento normativo.",
+    date: "2024-09-15",
+    image1: "/activities/charlas/charla1.jpg",
+    image2: "/activities/charlas/charla2.jpg",
+    image3: "/activities/charlas/charla3.jpg",
+    image4: "/activities/charlas/charla1.jpg",
+    image5: "/activities/charlas/charla2.jpg",
+    image6: "/activities/charlas/charla3.jpg",
+  },
+  {
+    id: 2,
+    title: "Manejo de Suelos: Reconformación, Geotecnia y Revegetalización",
+    description:
+      "Como parte de la gestión ambiental en proyectos de Oil & Gas, he participado en actividades de reconformación topográfica, análisis geotécnico y revegetalización de áreas intervenidas, garantizando la estabilidad del suelo y la recuperación de la cobertura vegetal en cumplimiento de normativas ambientales.",
+    date: "2024-09-15",
+    image1: "/activities/reveg/reveg1.jpg",
+    image2: "/activities/reveg/reveg2.jpg",
+    image3: "/activities/reveg/reveg1.jpg",
+    image4: "/activities/charlas/charla1.jpg",
+    image5: "/activities/charlas/charla2.jpg",
+    image6: "/activities/charlas/charla3.jpg",
+  },
+];
+
+export default dataActivities;
